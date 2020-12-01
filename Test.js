@@ -1,3 +1,1 @@
-function() {
-  Game.addClass("elderWrath");
-}
+Game.addClass("elderWrath")
