@@ -12,6 +12,6 @@ function check_stocks() {
     prices[i]=stock.getGoodPrice(stock.goodsById[i]);
     str=str+" "+prices[i];
   }
-  Game.Notify(str);
+  Game.Notify(str,'',);
 }
 setInterval(check_stocks, 100);
