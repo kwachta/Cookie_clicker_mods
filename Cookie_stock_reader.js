@@ -14,4 +14,5 @@ function check_stocks() {
   }
   Game.Notify(str,'',);
 }
-setInterval(check_stocks, 100000);
+//setInterval(check_stocks, 100000);
+Game.registerHook('check',check_stocks);
