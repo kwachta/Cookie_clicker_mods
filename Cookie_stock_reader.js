@@ -1,4 +1,4 @@
-function () {
+function check_stocks() {
   var stock=Game.Objects['Bank'].minigame;
   var n_of_stocks=0;
   for (var i in stock.goods)
@@ -14,3 +14,4 @@ function () {
   }
   Game.Notify(str);
 }
+setInterval(check_stocks, 100);
